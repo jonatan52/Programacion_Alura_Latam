@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego_adivinar</title>
+</head>
+<body>
+    <h1>Juego de adivinar</h1>
+    
+</body>
+<script>
+    function saltarLinea(){
+        document.write("<br><br><br>")
+    }
+
+    function imprimir(frase){
+        document.write(frase)
+        saltarLinea()
+    }
+
+    var numeropensado = Math.round(Math.random()*10);
+    var numeroIngresado = parseInt(prompt("Ingrese un numero del 0-10 por favor"))
+
+    if(numeroIngresado == numeropensado){
+        imprimir("Feliciataciones!!! Acertaste ")
+    }
+
+    else{
+        imprimir(" lo siento perdiste el numero era el " + numeropensado)
+    }
+
+    
+
+    
+
+</script>
+</html>

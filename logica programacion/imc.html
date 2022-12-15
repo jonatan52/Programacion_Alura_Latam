@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMCt</title>
+    <title>IMC</title>
 </head>
 <body>
     <h1>Caluclar IMC</h1>
@@ -25,12 +25,26 @@
     }
 
     nombre = prompt("Ingrese su nombre")
-    pesoInformado = (nombre + "Ingrese su peso")
-    alturaInformado = (nombre + "Ingrese su altura")
+    pesoInformado = prompt(nombre + "Ingrese su peso")
+    alturaInformado = prompt(nombre + "Ingrese su altura")
 
     imc = calcularImc(pesoInformado, alturaInformado )
 
     imprimir(nombre + " su IMC calculado es de: " + imc)
+
+    if(imc < 18.5){
+        imprimir("Imc abajo de lo recomendado")
+    }
+
+    if(imc > 18.5 && imc < 25){
+        imprimir("Imc normal")
+    }
+
+    
+
+    if(imc > 30){
+        imprimir("Imc considerado como obesidad")
+    }
 
 </script>
 </html>
