@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Loging</h1>
+    <h1>Bienvenido </h1>
 </body>
 <meta charset="UTF-8">
 <script>
@@ -21,6 +21,7 @@
     var contador = 1;
 
     while (contador <= maximoIntentos) {
+        contador ++ ;
         var inicioDeSesionIngresado = prompt("Ingrese su usuario");
         var contrasenhaIngresada = prompt("Ingrese su contraseña");
 
@@ -31,15 +32,19 @@
         }
 
         else {
-            alert("inicio de sesión inválido. Favor intente de nuevo");
-
+            
             if(contador == maximoIntentos){
+                
                 alert("Cuenta Bloqueada")
             }
+            else{
+                alert("inicio de sesión inválido. Favor intente de nuevo");
+            }
         }
-
+      
     }
-    contador ++ ;
+   
+
 
 
 
