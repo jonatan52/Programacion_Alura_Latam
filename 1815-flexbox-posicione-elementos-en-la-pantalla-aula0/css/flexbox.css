@@ -8,4 +8,68 @@
     display: flex;
 }
 
+/*Nuestros cursos*/
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+    
+}
+
+/* ---------------- Footer ------------------ */
+
+
+/*section class "videoSobre"*/
+.videoSobre .container{
+    display: flex;
+    
+}
+
+.videoSobre-button{
+    width: 90%;
+}
+
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*Seccion rodapePrincipal-navMap*/
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+}
+
+/*principal patrocinadores*/
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right:  5%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+    
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+
+
+
+
+
+
+
 
