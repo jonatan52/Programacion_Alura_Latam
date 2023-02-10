@@ -21,8 +21,6 @@
 }
 
 /* ---------------- Footer ------------------ */
-
-
 /*section class "videoSobre"*/
  .videoSobre .container{
     display: flex;
@@ -37,16 +35,13 @@
 
 .videoSobre-video{
     flex-grow: 1;
+    flex-shrink: 2;
 }
 
 .videoSobre-sobre-list{
     flex-grow: 2;
+    
 }
-
-/* .videoSobre-button{
-    width: 90%;
-}  */
-
 
 .rodapePrincipal-patrocinadores .container{
     display: flex;
@@ -72,8 +67,7 @@
 }
 
 .rodapePrincipal-contatoForm{
-    width: 25%;
-    
+    width: 25%;   
 }
 
 .rodapePrincipal-contatoForm-fieldset{
@@ -82,7 +76,6 @@
 
 /* Mediaqueries */
 @media(max-width:768px){
-    /*header*/
     .headerPrincipal .container{
         flex-direction: column;
         align-items: initial;
@@ -118,8 +111,7 @@
 }
 
 .rodapePrincipal-contatoForm{
-    width: 100%;
-    
+    width: 100%;   
 }
 
 /*rodapePrincipal-patrocinadores-list*/
@@ -134,5 +126,10 @@
 }
 
 .headerPrincipal-nav-link-app{
-      order: -1;
+    order: -1;
+}
+
+.videoSobre .container{
+    flex-direction: column;
+}
 }
