@@ -22,3 +22,5 @@ console.log("Variable con var " + nombreCompletoDelPasejero)
 console.log()
 console.log("Variable con let " + nombreCompletoPasajero)
 console.log("Variable con var " + nombreCompletoDelPasejero)
+
+
